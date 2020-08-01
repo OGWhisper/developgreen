@@ -1,0 +1,33 @@
+.sectionTitle {
+    width: 100%;
+    margin-top: 12.5vh;
+    text-align: center;
+}
+
+.servicePicture {
+    width: 20vw;
+    height: 20vw;
+    background-size: 40vw 20vw;
+    background-position-x: -10vw;
+    margin: auto;
+}
+
+.service {
+    display: inline-block;
+}
+
+#residentialPicture {
+    background-image: url("../Assets/residentialPicture.jpeg");
+}
+
+#commercialPicture {
+    background-image: url("../Assets/commercialPicture.jpg");
+}
+
+#refurbishmentPicture {
+    background-image: url("../Assets/refurbishmentPicture.jpg");
+}
+
+#title {
+    background-image: url("../Assets/title.png");
+}

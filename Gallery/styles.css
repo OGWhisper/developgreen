@@ -1,0 +1,18 @@
+.sectionTitle {
+    width: 22vw;
+    margin-top: 12.5vh;
+    text-align: center;
+}
+
+.galleryPicture {
+    width: 14vw;
+    height: 14vw;
+    margin: 1.25vw;
+    background-size: 40vw 18vw;
+    background-position-x: -10vw;
+    display: inline-block;
+}
+
+#title {
+    background-image: url("../Assets/title.png");
+}

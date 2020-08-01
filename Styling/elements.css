@@ -1,0 +1,56 @@
+html,
+body,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+tr,
+td,
+th {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+body {
+    /*
+    background-image: url("/Assets/greenSmoke.png");
+    background-blend-mode: multiply;
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: 70vw -15vw;
+    */
+}
+
+button {
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
+
+    font-family: "Lato", arial, sans-serif;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: "Cabin", arial, sans-serif;
+}
+
+h3 {
+    font-family: "Lato", arial, sans-serif;
+    color: rgb(94, 94, 94);
+}
+
+h4 {
+    font-weight: 100;
+}

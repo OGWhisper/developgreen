@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1000px) {
+    #bulk {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .aboutCell {
+        display: block;
+        width: 100%;
+    }
+
+    .aboutImage {
+        height: 35vw;
+    }
+
+    .galleryPicture {
+        width: 30.5vw;
+        height: 30.5vw;
+        background-size: 90vw 40vw;
+        background-position-x: -22.5vw;
+        background-repeat: no-repeat;
+    }
+
+    .service {
+        display: block;
+        text-align: center;
+    }
+
+    .servicePicture {
+        width: 40vw;
+        height: 40vw;
+        background-size: 80vw 40vw;
+        background-position-x: -20vw;
+    }
+
+    #mobileHidden {
+        display: none;
+    }
+
+    #mobileShown {
+        display: block;
+    }
+
+    #testimonyWrapper {
+        height: auto;
+        white-space: normal;
+        text-align: center;
+    }
+
+    #testimonialA {
+        display: block;
+        margin: auto;
+        max-width: 50vw;
+    }
+
+    #testimonialB {
+        display: block;
+        margin: auto;
+        margin-top: 2vw;
+        max-width: 50vw;
+    }
+
+    #contact {
+        width: 70vw;
+    }
+}

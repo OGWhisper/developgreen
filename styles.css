@@ -1,0 +1,121 @@
+#contact {
+    margin: auto;
+    padding: 2.5vw;
+    padding-bottom: 5vw4;
+    width: 35vw;
+    background-image: linear-gradient(-45deg, var(--colour-primary), var(--colour-secondary));
+    border-radius: 20px;
+}
+
+#title {
+    background-image: url("./Assets/title.png");
+}
+
+.sectionTitle {
+    width: 100%;
+    margin-top: 12.5vh;
+    text-align: center;
+}
+
+#mobileShown {
+    display: none;
+}
+
+#aboutTable {
+    width: 100%;
+    height: 80vw;
+}
+
+.aboutCell {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 35%;
+}
+
+.aboutText {
+    font-size: medium;
+    text-align: left;
+
+    /*background-color: aquamarine;*/
+}
+
+.aboutImage {
+    height: 17.5vw;
+    width: 100%;
+
+    background-size: 100% 100%;
+
+    /*background-color: crimson;*/
+}
+
+#rooferOnRoof {
+    background-image: url("Assets/rooferOnRoof.png");
+}
+
+#mastikManOnStairs {
+    background-image: url("Assets/mastikManOnStairs.png");
+}
+
+#electricianOnLadder {
+    background-image: url("Assets/electricianOnLadder.png");
+}
+
+#testimonyWrapper {
+    margin-top: 2vw;
+    margin: auto;
+    width: auto;
+    height: 20vw;
+    overflow-x: auto;
+    overflow-y: flex;
+    height: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.testimony {
+    display: inline-block;
+
+    width: auto;
+    height: auto;
+
+    max-width: 20vw;
+    /*background-image: linear-gradient(45deg, var(--colour-primary), var(--colour-secondary));*/
+    /*background-image: linear-gradient(0deg, crimson, orange);*/
+    background-image: linear-gradient(0deg,  rgba(247,157,0,0.25), rgba(100,243,140,0.5));
+    border: solid 1px black;
+    padding-bottom: 1vw;
+
+    border-radius: 40px;
+    margin: 15px;
+}
+
+.testimonyTitle {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.testimonyContent {
+    margin: auto;
+    font-size: 20px;
+
+    height: auto;
+
+    width: auto;
+    
+    text-align: center;
+    
+    margin: 1vw;
+
+    word-wrap: break-word;
+    white-space: normal;
+
+    overflow-y: auto;
+    overflow-x: auto;
+}
