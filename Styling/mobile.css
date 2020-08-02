@@ -13,12 +13,22 @@
         height: 35vw;
     }
 
+    #landing {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
     .galleryPicture {
-        width: 30.5vw;
-        height: 30.5vw;
-        background-size: 90vw 40vw;
-        background-position-x: -22.5vw;
+        height: 30vw;
+        background-size: 80vw 40vw;
+        background-position-x: -20vw;
+        background-position-y: -10vw;
         background-repeat: no-repeat;
+    }
+
+    .pictureContainer {
+        width: 35vw;
+        height: 40vw;
     }
 
     .service {

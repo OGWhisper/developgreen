@@ -45,8 +45,23 @@
 
     background-size: 100% 100%;
 
+    background-repeat: no-repeat;
+
     /*background-color: crimson;*/
+
+    transition: width 2s, height 2s, margin 2s;
 }
+
+/* .aboutImage:hover {
+    height: 15vw;
+    width: 90%;
+
+    margin-top: 1.25vw;
+    margin-bottom: 1.25vw;
+
+    margin-left: 5%;
+    margin-right: 5%;
+} */
 
 #rooferOnRoof {
     background-image: url("Assets/rooferOnRoof.png");

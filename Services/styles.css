@@ -9,6 +9,8 @@
     height: 20vw;
     background-size: 40vw 20vw;
     background-position-x: -10vw;
+    background-position-y: 0vw;
+    background-repeat: no-repeat;
     margin: auto;
 }
 

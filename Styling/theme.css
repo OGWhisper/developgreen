@@ -54,7 +54,6 @@
     background-color: rgba(255, 255, 255, 0.75);
     border-bottom: solid 1px rgba(0, 0, 0, 0.25);
 
-
     z-index: 1;
     box-shadow: 0px 1px rgba(0, 0, 0, 0.25);
 }
@@ -131,65 +130,33 @@
 
     z-index: 0;
 
-    -webkit-animation: bounce 2s infinite;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-@-moz-keyframes bounce {
-    0% {
-        margin-top: 0px;
-    }
-    10% {
-        margin-top: 20px;
-    }
-    20% {
-        margin-top: 0px;
-    }
-    30% {
-        margin-top: 20px;
-    }
-    40% {
-        margin-top: 0px;
-    }
+.highlighted {
+    cursor: pointer;
+    transition: background 0.75s;
+    background: gold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@-ms-keyframes bounce {
-    0% {
-        margin-top: 0px;
-    }
-    10% {
-        margin-top: 20px;
-    }
-    20% {
-        margin-top: 0px;
-    }
-    30% {
-        margin-top: 20px;
-    }
-    40% {
-        margin-top: 0px;
-    }
+.highlighted:hover {
+    background: crimson;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@-o-keyframes bounce {
-    0% {
-        margin-top: 0px;
-    }
-    10% {
-        margin-top: 20px;
-    }
-    20% {
-        margin-top: 0px;
-    }
-    30% {
-        margin-top: 20px;
-    }
-    40% {
-        margin-top: 0px;
-    }
+/*
+.stop-transition {
+    transition: none !important;
 }
+*/
 
-@-webkit-keyframes bounce {
+@keyframes bounce {
     0% {
         margin-top: 0px;
     }

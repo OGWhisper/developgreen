@@ -9,7 +9,7 @@ const isScrolledIntoView = (el) => {
 }
 
 setInterval(() => {
-    for (let image of document.getElementsByClassName("aboutImage")) {
+    for (let image of document.getElementsByClassName("servicePicture")) {
         if (!image.h) {
             image.h = 17.5;
         }
@@ -27,24 +27,3 @@ setInterval(() => {
         image.style = `background-position-y: ${image.h}vw;`
     }
 }, 10)
-
-onScroll();
-
-// stopResponsiveTransition();
-
-// function stopResponsiveTransition() {
-//     const classes = document.body.classList;
-//     let timer = null;
-//     window.addEventListener('resize', function () {
-//         if (timer) {
-//             clearTimeout(timer);
-//             timer = null;
-//         } else {
-//             classes.add('stop-transition');
-//         }
-//         timer = setTimeout(() => {
-//             classes.remove('stop-transition');
-//             timer = null;
-//         }, 100);
-//     });
-// }
