@@ -30,6 +30,24 @@ setInterval(() => {
 
 onScroll();
 
+function process (name, title) {
+    document.getElementById('process').className = name;
+
+    for(let title of document.getElementsByClassName('processTitle')) {
+        title.style.color = 'grey';
+    }
+
+    document.getElementById(title).style.color = 'white';
+}
+
+function processRestore () {
+    for(let title of document.getElementsByClassName('processTitle')) {
+        title.style.color = 'white';
+    }
+    
+    document.getElementById('process').className = '';
+}
+
 // stopResponsiveTransition();
 
 // function stopResponsiveTransition() {

@@ -5,8 +5,8 @@
 }
 
 .servicePicture {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     background-size: 40vw 20vw;
     background-position-x: -10vw;
     background-position-y: 0vw;
@@ -16,6 +16,9 @@
 
 .service {
     display: inline-block;
+
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
 }
 
 #residentialPicture {

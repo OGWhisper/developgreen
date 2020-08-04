@@ -8,22 +8,24 @@ const isScrolledIntoView = (el) => {
     return isVisible;
 }
 
-setInterval(() => {
-    for (let image of document.getElementsByClassName("servicePicture")) {
-        if (!image.h) {
-            image.h = 17.5;
-        }
+// setInterval(() => {
+    
+//     for (let image of document.getElementsByClassName("servicePicture")) {
 
-        if (isScrolledIntoView(image)) {
-            image.h *= 0.95;
-        } else {
-            image.h = 17.5;
-        }
+//         if (!image.h) {
+//             image.h = 17.5;
+//         }
 
-        if (image.h < 0) {
-            image.h = 0;
-        }
+//         if (isScrolledIntoView(image)) {
+//             image.h *= 0.95;
+//         } else {
+//             image.h = 17.5;
+//         }
 
-        image.style = `background-position-y: ${image.h}vw;`
-    }
-}, 10)
+//         if (image.h < 0) {
+//             image.h = 0;
+//         }
+
+//         image.style = `background-position-y: ${image.h}vw;`
+//     }
+// }, 10)

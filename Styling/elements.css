@@ -54,3 +54,15 @@ h3 {
 h4 {
     font-weight: 100;
 }
+
+h2 {
+    color: #b8a16b;
+
+    font-family: Cormorant;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

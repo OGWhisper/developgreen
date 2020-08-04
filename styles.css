@@ -96,7 +96,7 @@
     max-width: 20vw;
     /*background-image: linear-gradient(45deg, var(--colour-primary), var(--colour-secondary));*/
     /*background-image: linear-gradient(0deg, crimson, orange);*/
-    background-image: linear-gradient(0deg,  rgba(247,157,0,0.25), rgba(100,243,140,0.5));
+    background-image: linear-gradient(0deg, rgba(247, 157, 0, 0.25), rgba(100, 243, 140, 0.5));
     border: solid 1px black;
     padding-bottom: 1vw;
 
@@ -123,9 +123,9 @@
     height: auto;
 
     width: auto;
-    
+
     text-align: center;
-    
+
     margin: 1vw;
 
     word-wrap: break-word;
@@ -133,4 +133,58 @@
 
     overflow-y: auto;
     overflow-x: auto;
+}
+
+#process {
+    width: auto;
+
+    font-size: 0px;
+
+    background-repeat: no-repeat;
+    background-size: 100vw 75vw;
+    background-position-y: -15vw;
+
+    -webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    -o-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+
+.processTitle {
+    color: white;
+}
+
+.step {
+    width: calc(25% - 0.75px);
+    display: inline-block;
+    text-align: center;
+
+    font-size: 16px;
+
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+
+    cursor: pointer;
+
+    background-color: rgba(20, 20, 25, 0.75);
+}
+
+.stepBorder {
+    border-right: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.stepA {
+    background-image: url("Assets/commercialPicture.jpg");
+}
+
+.stepB {
+    background-image: url("Assets/aaa.jpg");
+}
+
+.stepC {
+    background-image: url("Assets/bbb.jpg");
+}
+
+.stepD {
+    background-image: url("Assets/background.jpg");
 }
